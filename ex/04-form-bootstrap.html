@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>Cadastro</title>
+    <script src="jquery-3.2.1.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="navbar.js"></script>
+  </head>
+  <body>
+
+    <div class="container">
+    <h1>Dados:</h1></div>
+
+    <form class="form-horizontal" name="signup" action="valid.html" method="get">
+      <div class="container">
+
+        <div class="form-group">
+          <div class="col-xs-3"><label for="name">Nome:</label></div>
+          <div class="col-xs-6"><input class="form-control" type="text" name="name"></div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-xs-3"><label for="username">Nome de usuário:</label></div>
+          <div class="col-xs-6"><input class="form-control" type="text" name="username"></div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-xs-3"><label for="gender">Gênero:</label></div>
+          <div class="col-xs-3">
+            <div class="radio"><label><input type="radio" name="gender" value="female"> Feminino</label></div>
+            <div class="radio"><label><input type="radio" name="gender" value="male">Masculino</label></div>
+            <div class="radio"><label><input type="radio" name="gender" value="other">Outro</label></div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-xs-3"><label for="birthday">Data de nascimento:</label></div>
+          <div class="col-xs-6"><input class="form-control" type="date" name="birthday"></div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-xs-3"><label for="id_1">RG:</label></div>
+          <div class="col-xs-6"><input class="form-control" type="text" name="id_1"></div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-xs-3"><label for="id_2">CPF:</label></div>
+          <div class="col-xs-6"><input class="form-control" type="text" name="id_2"></div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-xs-3"><label for="email">E-mail:</label></div>
+          <div class="col-xs-6"><input class="form-control" type="text" name="email"></div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-xs-3"><label for="confirm_email">Confirmar e-mail:</label></div>
+          <div class="col-xs-6"><input class="form-control" type="text" name="confirm_email"></div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-xs-3"><label for="phone">Telefone:</label></div>
+          <div class="col-xs-6">
+            <input class="form-control" type="text" name="phone">
+            <div class="col-xs-4">
+              <div class="checkbox"><label><input type="checkbox" name="whatsapp">Whatsapp</label></div>
+            </div>
+            <div class="col-xs-4">
+              <div class="checkbox"><label><input type="checkbox" name="telegram">Telegram</label></div>
+            </div>
+            <div class="col-xs-4">
+              <div class="checkbox"><label><input type="checkbox" name="signal">Signal</label></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-xs-3"><label for="street1">Rua:</label></div>
+          <div class="col-xs-5"><input class="form-control" type="text" name="street"></div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-xs-3"><label for="district">Bairro:</label></div>
+          <div class="col-xs-5"><input class="form-control" type="text" name="district"></div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-xs-3"><label for="city">Cidade:</label></div>
+          <div class="col-xs-5"><input class="form-control" type="text" name="city"></div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-xs-3"><label for="state">Estado:</label></div>
+          <div class="col-xs-5">
+            <select class="form-control" name="state">
+                <option value="null"></option>
+                <option value="ES">Espírito Santo</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-xs-3"><label for="country">País:</label></div>
+          <div class="col-xs-5"><input class="form-control" type="text" name="country"></div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-xs-3"><label for="password">Senha</label></div>
+          <div class="col-xs-5"><input class="form-control" type="password" name="password"></div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-xs-3"><label for="confirm_password">Confirmar senha:</label></div>
+          <div class="col-xs-5"><input class="form-control" type="password" name="confirm_password"></div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-xs-2 navbar-right"><input class="form-control btn-primary" type="submit" value="Cadastrar"></div>
+          <div class="col-xs-2 navbar-right"><input class="form-control" type="reset" value="Limpar"></div>
+          <div class="navbar-right"><a class="btn btn-link" href="index.html">Voltar</a></div>
+        </div>
+
+      </div><!--/container-->
+    </form>
+
+    <dif id="navbar"></div>
+  </body>
+</html>
+
